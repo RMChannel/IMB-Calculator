@@ -1,0 +1,46 @@
+:root {
+    --height-size: 400px;
+}
+
+body {
+    background-color:bisque;
+}
+
+#squadrato {
+    width: max-content;
+    height: var(--height-size);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabella {
+    width: 700px;
+    height: var(--height-size);
+}
+
+.title {
+    font-family: 'Rowdies', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.desc {
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+}
+
+.desc2 {
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+input {
+    text-align: right;
+}
+
+#descires {
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+}
