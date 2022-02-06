@@ -16,7 +16,7 @@ function calcolo() {
         }, 100);
         return;
     }
-    else if (peso.value<0 || altezza.value<0) {
+    else if (peso.value<0 || altezza.value<0 || isNaN(Number(altezza.value))) {
         error.play();
         setTimeout(() => {
             alert('Errore 2: Dati errati');
